@@ -25,7 +25,7 @@ pip install pyinstaller
 ### **Step 2: Convert to EXE**  
 Run the following command to create a standalone `.exe` file:  
 ```bash
-pyinstaller --onefile --windowed forensic_tool.py
+pyinstaller --onefile --windowed win_analysis.py
 ```
 - `--onefile`: Creates a single executable file.  
 - `--windowed`: Hides the console window (important for GUI apps).  
