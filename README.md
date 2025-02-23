@@ -35,4 +35,4 @@ pyinstaller --onefile --windowed forensic_tool.py
 - You’ll find `forensic_tool.exe` there.  
 - Double-click it to run your forensic tool as a standalone application.  
 
-Let me know if you need any modifications! 🚀
+
