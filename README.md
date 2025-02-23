@@ -12,5 +12,3 @@ The **Digital Forensic Tool** is a Windows-based forensic analysis application b
 ✔ **Download Report** – Saves forensic results in a structured and formatted **PDF report**.  
 ✔ **User-Friendly GUI** – Provides an easy-to-use interface with real-time output previews.  
 
-Let me know if you need additional sections like installation steps, usage instructions, or screenshots! 🚀
-Subprocess (to execute system commands)
