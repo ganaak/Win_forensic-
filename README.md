@@ -1,28 +1,16 @@
 # Win_forensic-
 windows log analysis tool
 
-\Overview
+## Overview  
+The **Digital Forensic Tool** is a Windows-based forensic analysis application built using Python and `tkinter`. It allows users to gather and analyze system forensic data, such as WiFi credentials, uninstalled software logs, and connected USB devices. The tool also provides an option to export the results as a **PDF report** for further investigation.  
 
-The Digital Forensic Tool is a GUI-based application built using Python and Tkinter that allows users to retrieve and analyze forensic data from a Windows system. The tool provides various features, such as analyzing WiFi credentials, listing uninstalled software, and detecting connected USB devices. Additionally, the tool allows users to generate a detailed forensic report in PDF format.
+## Features  
+✔ **WiFi Credentials Analyzer** – Retrieves saved WiFi profiles and their passwords (if available).  
+✔ **Uninstalled Software Logs** – Extracts software uninstallation logs from Windows Event Viewer.  
+✔ **USB Device List** – Displays connected USB devices along with their details.  
+✔ **System Information** – Gathers system details like RAM, disk space, and processor information.  
+✔ **Download Report** – Saves forensic results in a structured and formatted **PDF report**.  
+✔ **User-Friendly GUI** – Provides an easy-to-use interface with real-time output previews.  
 
-Features
-
-Analyze WiFi Credentials: Extract stored WiFi SSIDs and their corresponding passwords.
-
-List Uninstalled Software: Retrieve details of recently uninstalled software from Windows event logs.
-
-List USB Devices: Display connected USB devices and their details.
-
-Generate Forensic Reports: Export forensic findings into a structured PDF report with system information.
-
-Technologies Used
-
-Python
-
-Tkinter (for GUI development)
-
-FPDF (for generating PDF reports)
-
-WMI (to interact with Windows system information)
-
+Let me know if you need additional sections like installation steps, usage instructions, or screenshots! 🚀
 Subprocess (to execute system commands)
