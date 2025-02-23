@@ -12,3 +12,27 @@ The **Digital Forensic Tool** is a Windows-based forensic analysis application b
 ✔ **Download Report** – Saves forensic results in a structured and formatted **PDF report**.  
 ✔ **User-Friendly GUI** – Provides an easy-to-use interface with real-time output previews.  
 
+
+You can convert your Python script into an executable (`.exe`) file using **PyInstaller** and then run it like any Windows application. Follow these steps:
+
+### **Step 1: Install PyInstaller**  
+Open Command Prompt and install PyInstaller if you haven't already:  
+```bash
+pip install pyinstaller
+```
+
+
+### **Step 2: Convert to EXE**  
+Run the following command to create a standalone `.exe` file:  
+```bash
+pyinstaller --onefile --windowed forensic_tool.py
+```
+- `--onefile`: Creates a single executable file.  
+- `--windowed`: Hides the console window (important for GUI apps).  
+
+### **Step 4: Locate and Run the EXE**  
+- Once the process is completed, go to the **`dist`** folder inside your script's directory.  
+- You’ll find `forensic_tool.exe` there.  
+- Double-click it to run your forensic tool as a standalone application.  
+
+Let me know if you need any modifications! 🚀
