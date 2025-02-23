@@ -1,4 +1,4 @@
-![wall1](https://github.com/user-attachments/assets/fc8678e0-55fe-4933-9c9d-92eb8351ff40)# Win_forensic-
+# Win_forensic-
 windows log analysis tool
 
 ## Overview  
@@ -20,8 +20,6 @@ Open Command Prompt and install PyInstaller if you haven't already:
 ```bash
 pip install pyinstaller
 ```
-![image](https://github.com/user-attachments/assets/8bb3fc35-0d75-46b8-990e-1cf9909535ea)
-
 
 
 ### **Step 2: Convert to EXE**  
@@ -35,6 +33,8 @@ pyinstaller --onefile --windowed win_analysis.py
 ### **Step 4: Locate and Run the EXE**  
 - Once the process is completed, go to the **`dist`** folder inside your script's directory.  
 - You’ll find `forensic_tool.exe` there.  
-- Double-click it to run your forensic tool as a standalone application.  
+- Double-click it to run your forensic tool as a standalone application.
+
+  ![image](https://github.com/user-attachments/assets/8bb3fc35-0d75-46b8-990e-1cf9909535ea)  
 
 
